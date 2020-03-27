@@ -1,0 +1,16 @@
+[
+   {
+      "brand": "Asus",
+      "codename": "X00T",
+      "name": "Zenfone Max Pro M!",
+      "supported_versions": [
+         {
+            "maintainer_name": "Advaith Bhat",
+            "maintainer_url": "https://t.me/advaithbhat",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/asus-zenfone-max-pro-m1/development/x00t-t4027263"
+         }
+      ]
+   }
+]
