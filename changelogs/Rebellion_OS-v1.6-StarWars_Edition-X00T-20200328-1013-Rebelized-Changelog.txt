@@ -1,0 +1,118 @@
+====================
+     03-28-2020
+====================
+
+   * frameworks/base/
+462b270  Lockscreen art blur: fix SysUI FC  [Aston-Martinn]
+b4379ad  Lockscreen art blur: allow no blur  [Aston-Martinn]
+f0af855  Lockscreen blur level: code fixes  [Aston-Martinn]
+8e04af5  base: configure lock screen media artwork blur level [1/2]  [Aston-Martinn]
+808e6de  base: Allow to disable Lockscreen Media Art [1/2]  [Aston-Martinn]
+74c75cc  base: [SQUASHED]Clean-up Lockscreen Media-Art commits  [Aston-Martinn]
+93a06ab  base: Set default QS rows to 4  [Aston-Martinn]
+9e8c575  base: Add back more battery bar locations [1/2]  [Aston-Martinn]
+b5fb4f0  base: Change default StatusBar clock Font  [Aston-Martinn]
+28deda4  SystemUI: Fix statusbar padding and layout for system icons  [Aston-Martinn]
+dec2122  SystemUI: Reduce padding between battery & signal  [Aston-Martinn]
+caabd16  BatteryMeterView: Fix Battery % padding  [Aston-Martinn]
+bd10c61  BatteryBar: Gradient color [1/2]  [Aston-Martinn]
+b7d7950  Battery bar enhancements [1/2]  [Aston-Martinn]
+08f9e91  base: Add back battery bar [1/2]  [Aston-Martinn]
+   * packages/apps/RebellionSettings/
+97afbb7  Rebellion-Hub: Refractor Lockscreen Media-art [2/2]  [Aston-Martinn]
+807b633  Rebellion-Hub: Refractor BatteryBar [2/2]  [Aston-Martinn]
+   * vendor/gapps/
+6244a10  gapps: Remove Turbo prebuilt.  [Aston-Martinn]
+   * vendor/rebellion/
+c3b0b7c  vendor: Build & enable APNs  [Aston-Martinn]
+b248180  vendor: bring back Turbo  [Aston-Martinn]
+
+====================
+     03-27-2020
+====================
+
+   * frameworks/base/
+2a22bb4  SystemUI: EnhancedEstimatesGoogleImp: Get turbo going again  [Himanshu Naamdev]
+9a1b717  SystemUI: EnhancedEstimatesGoogleImp: Catch NameNotFoundException  [Himanshu Naamdev]
+e1589b8  SystemUI: SystemUIGoogleModule: Switch to EnhancedEstimatesGoogleImpl  [Himanshu Naamdev]
+064130d  SystemUI: Implement EnhancedEstimatesGoogleImpl  [Himanshu Naamdev]
+   * packages/apps/RebellionSettings/
+e60c15b  Rebellion-Hub: Statusbar Battery styles [2/2]  [Aston-Martinn]
+   * packages/apps/Settings/
+c21e052  FeatureFactoryImpl: Update PowerUsageFeatureProviderGoogleImpl  [Himanshu Naamdev]
+04ee5fb  FeatureFactoryImpl: Update PowerUsageFeatureProviderGoogleImpl  [Himanshu Naamdev]
+529ad25  Revert "Revert "FeatureFactoryImpl: Import PowerUsageFeatureProviderGoogleImpl""  [Himanshu Naamdev]
+   * vendor/rebellion/
+f26ccfb  vendor: Add some prebuilt apps  [Aston-Martinn]
+
+====================
+     03-26-2020
+====================
+
+   * frameworks/base/
+5abfb24  fix data disabled icon  [Aston-Martinn]
+   * packages/apps/RebellionSettings/
+c4fd5b2  Rebellion-Hub: Add QS System Info [2/2]  [Aston-Martinn]
+7b4f3ec  Rebellion-Hub: StatusbarClock date right/left position [2/2]  [Aston-Martinn]
+e983613  Rebellion-Hub: Statusbar Clock size & color Customization [2/2] Add Clock size, color & font style.  [Aston-Martinn]
+56048f0  Rebellion-Hub: Statusbar Clock & Date customization [2/2]  [Aston-Martinn]
+e2d5b5e  Rebellion-Hub: Allow to set QS panel columns [2/2]  [Aston-Martinn]
+1ef29d5  Rebellion-Hub: Make powermenu lockscreen visibility configurable [2/2]  [Aston-Martinn]
+24c0f9e  Rebellion-Hub: Hide the power menu on the lockscreen [2/2]  [Aston-Martinn]
+00d36a6  Rebellion-Hub: Powermenu Torch option [2/2]  [Aston-Martinn]
+909cb29  Rebellion-Hub: Make the power menu configurable [2/2]  [Aston-Martinn]
+   * vendor/rebellion/
+1ed449c  vendor: common: Copy APN list to $(TARGET_COPY_OUT_PRODUCT)/etc  [Himanshu Naamdev]
+4d1ffce  vendor: Add back official devices!  [Himanshu Naamdev]
+f2d2334  vendor: Make Lawnchair Our Default Launcher  [Himanshu Naamdev]
+
+====================
+     03-25-2020
+====================
+
+   * bionic/
+f4700fa  Fix clang header dependency for versioner  [Himanshu Naamdev]
+   * build/make/
+00288e4  build: build AOSP Messaging  [Aston-Martinn]
+   * frameworks/base/
+aec2872  base: Nice looking black theme  [Aston-Martinn]
+753606e  base: SystemUI: keyguard show charging watt  [Aston-Martinn]
+5abe6be  LockscreenShortcuts: enable default shortcuts  [Aston-Martinn]
+   * manifest/
+a861ff2  Manifest: Track clang-6284175 from our org  [Aston-Martinn]
+   * packages/apps/RebellionSettings/
+89f9b48  Rebellion-Hub: Add kill button to notification guts [2/2]  [Aston-Martinn]
+   * prebuilts/clang/host/linux-x86/clang-6284175/
+2b66c54  clang 10.0.5 from build 6284175-based on r377782c  [Aston-Martinn]
+   * vendor/rebellion/
+4265533  vendor: Update apn-configs from lineage-17.1  [Aston-Martinn]
+4a1e344  vendor: Allow the use of aosp apn's  [Aston-Martinn]
+8ee62d0  vendor: Dynamically add custom APNs  [Aston-Martinn]
+
+====================
+     03-24-2020
+====================
+
+   * packages/apps/RebellionSettings/
+13dfd32  Rebellion-Hub: Less boring heads up option [2/2]  [Aston-Martinn]
+68599ed  Rebellion-Hub: Add BatteryBar customizations [2/2]  [Aston-Martinn]
+b626c4f  Rebellion-Hub: Statusbar brightness control [2/2]  [Aston-Martinn]
+64e2dea  Rebellion-Hub: QS Brightness Slider Customisations [2/2]  [Aston-Martinn]
+8dff903  Rebellion-Hub: Smart Pulldown [2/2]  [Aston-Martinn]
+ecc3493  Rebellion-Hub: Allow to disable qs footer warnings [2/2]  [Aston-Martinn]
+7a694dc  Rebellion-Hub: Lockscreen Visualizer: Add pulse magic [2/2]  [Aston-Martinn]
+8183b89  Rebellion-Hub: Add visualizer feature [2/2]  [Aston-Martinn]
+5ae1181  Rebellion-Hub: Hardware key disable support  [Aston-Martinn]
+ce203f3  Rebellion-Hub: Custom button light [2/2]  [Aston-Martinn]
+c88be11  Rebellion-Hub: Make roaming indicator optional [2/2]  [Aston-Martinn]
+797dd97  Rebellion-Hub: Option to Display Data Disabled Indicator Icon [2/2]  [Aston-Martinn]
+37c5af0  Rebellion-Hub: incall vibration options [3/3]  [Aston-Martinn]
+ff60f6a  Rebellion-Hub: Add System fragment  [Aston-Martinn]
+7d86a80  Rebellion-Hub: Volume key cursor control (2/2)  [Aston-Martinn]
+be07cbd  Rebellion-Hub: Add lockscreen media Artwork customisations  [Aston-Martinn]
+15b4f94  Rebellion-Hub: Fingerprint authentication vibration [2/2]  [Aston-Martinn]
+a283aea  Rebellion-Hub: Persist Setting Icon Toggle [2/2]  [Aston-Martinn]
+47bb59c  Rebellion-Hub: Hardware key: Enable single tap rebinding for hwkey back and home  [Aston-Martinn]
+8a427a1  Rebellion-Hub: Hardware Keys Customizations [2/2]  [Aston-Martinn]
+c50706c  Rebellion-Hub: Add Network Traffic Layout [2/2]  [Aston-Martinn]
+
