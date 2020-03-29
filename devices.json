@@ -12,5 +12,19 @@
             "xda_thread": "https://forum.xda-developers.com/asus-zenfone-max-pro-m1/development/x00t-t4027263"
          }
       ]
+   },
+   {
+      "brand": "Xiaomi",
+      "codename": "mido",
+      "name": "Redmi Note 4X",
+      "supported_versions": [
+         {
+            "maintainer_name": "Smokey",
+            "maintainer_url": "https://t.me/smokey_18",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/redmi-note-4/xiaomi-redmi-note-4-snapdragon-roms-kernels-recoveries--other-development/rom-rebellionos-rebelized-redmi-note-4-t4027255"
+         }
+      ]
    }
 ]
