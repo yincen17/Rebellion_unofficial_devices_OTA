@@ -26,5 +26,19 @@
             "xda_thread": "https://forum.xda-developers.com/redmi-note-4/xiaomi-redmi-note-4-snapdragon-roms-kernels-recoveries--other-development/rom-rebellionos-rebelized-redmi-note-4-t4027255"
          }
       ]
-   }
+   },
+{
+      "brand": "Xiaomi",
+      "codename": "whyred",
+      "name": "Redmi Note 5 Pro",
+      "supported_versions": [
+         {
+            "maintainer_name": "Zeeshan Ahmed",
+            "maintainer_url": "https://t.me/NAHSEEZ",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/redmi-note-5-pro/development/rom-rebellionos-rebelized-redmi-note-5-t4027745"
+         }
+     ]
+}
 ]
