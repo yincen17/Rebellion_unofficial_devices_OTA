@@ -40,5 +40,21 @@
             "xda_thread": "https://forum.xda-developers.com/redmi-note-5-pro/development/rom-rebellionos-rebelized-redmi-note-5-t4027745"
          }
      ]
+  },
+
+{
+        "brand": "Xiaomi",
+        "codename": "violet",
+        "name": "Redmi Note 7 Pro",
+        "supported versions": [
+           {
+               "maintainer_name": "vishwas7",
+               "maintainer_url": "https://t.me/mavji007",
+               "version_code": "ten",
+               "version_name": "Ten",
+               "xda_thread": "https://forum.xda-developers.com/redmi-note-7-pro/development/rom-rebellion-os-t4079875"
+           }
+      ]
 }
+
 ]
