@@ -1,0 +1,357 @@
+=======================
+     04-18-2020
+=======================
+
+5df9074 sepolicy: Smart Charging (3/4)
+8613b3f Ambient brightness values: use a custom system setting [1/2]
+25e4180 Manifest: Track CustomDoze & Faceunlock
+52892ca CustomDoze: Ambient music: allow to pulse on new tracks [2/2]
+c1242ef CustomDoze: Ambient Display battery toggle [2/2]
+48eefd8 CustomDoze: Adapt to Rebellion
+fb61779 Rebellion-Hub: Add separate config for pulse brightness [2/2]
+eeab22c Rebellion-Hub: Add option to change ambient visualizer opacity [2/2]
+061f0bc Rebellion-Hub: String, Summaries Improvements & categorize QS
+c3c10ae Telephony: Suspend Actions [2/3]
+94125fa vendor: Change default wallpaper
+
+=======================
+     04-17-2020
+=======================
+
+2660c85 base: Fix Few Statusbar Clock fonts not applying!
+42427ae base: Add more Lockscreen Clock & Date Fonts [1/3]
+3bfd371 DozeSensors: do not use binned brightness sensor for proximity if not supported
+887159e Allow to choose lockscreen or Ambient on wake gestures [1/2]
+88a9600 Ambient instead of lockscreen on wake gesture: code fixes
+8449fa7 SystemUI: fix dt2s issue introduced during mismerge of r16 tag
+82f36c7 SystemUI: Improve EnhancedEstimatesGoogleImpl
+cc06268 base: Donot Apply Gradient to Switches!
+ec5a1b3 SystemUI: fix black screen after AOD_PAUSED
+a748326 base: SystemUI: add separate config for pulse brightness [1/2]
+959611d base: Double tap for ambient display improvements
+45c2f84 base: Double tap to trigger doze [1/2]
+3e92941 [BugFix] Fix enter deep doze when moving
+3980a79 SystemUI: Use doze_pulse_duration_visible as timeout for showing ambient notifications
+d455c25 Modify start/stop condition for mScreenDozeTimer.
+bb09672 Rebellion-Hub: Separate Lockscreen, Carrier & Statusbar clock Fonts
+be515ff Rebelion-Hub: Add More Lockscreen Clock & Date Fonts [2/3]
+5203a6c Rebellion-Hub: Remove Rounded corners out of fragment. * Show it in Screen
+9886c9e Rebellion-Hub: Screen off animations [2/2]
+e33cde9 Rebellion-Hub: [SQUASHED] Add Ambient Edge Pulse [2/2]
+c8b161b Rebellion-Hub: Readd Navbar Layout selection
+5fbca4f Rebellion-Hub: Bring back old style mobile data indicators
+0ad4ad9 Rebellion-Hub: Add Display Cutout Settings [2/2]
+e8b80a9 Rebellion-Hub: Suspend Actions [3/3]
+d7f0cf7 Rebellion-Hub: Implement Aggressive Battery [2/2]
+21b316d Rebellion-Hub: Smart Pixels [2/2]
+9f27343 Rebellion-Hub: Add Pocket judge
+f296f26 Rebellion-Hub: Unlock keystore with fingerprint after reboot (2/2)
+65c868c Rebellion-Hub: Add 'Invert layout' to navigation bar settings
+feabaa7 Rebellion-Hub: Live Volume Steps [2/2]
+f79d9e7 Rebellion-Hub: Ambient Display Visualizer [2/2]
+cb17dbb Rebellion-Hub: Custom Rounded Corner and Padding preferences [2/2]
+d5c79ab Rebellion-Hub: Add Screen fragment
+b345e3f Rebellion-Hub: Allow hiding lockscreen shortcuts on secure lockscreen [2/2]
+7ce3b24 Rebellion-Hub: Add rebellion-VoLTE Icons [2/2]
+1417ab1 Rebellion-Hub: VoLTE Icon - User Selectable VoLTE Icon [2/2]
+a595cd5 Rebellion-Hub: Add in analog clock with numbers [2/2]
+b3c40c6 Rebellion-Hub: Add Analog clock [2/2]
+859eee4 Rebellion-Hub: Add sammy accent clock and a variant [2/2]
+22194e8 Rebellion-Hub: Introduce Q style text clock [2/2]
+390fd5c Rebellion-Hub: Introduce lockscreen clock/date styles [2/2]
+a1b32c2 Rebellion-Hub: Welcome Back Lockscreen Item Colors [2/2]
+6779ad2 Rebellion-Hub: Add Lockscreen UI
+26e9ff1 Rebellion-Hub: Add CustomDoze
+f6127b1 Settings: Allow to choose lockscreen or Ambient on wake gestures [2/2]
+80d9a7c Settings: Enable 3 fingers Swipe Screenshot
+544c6be Settings: Disable stock battery percent toggle
+3b17f60 Settings: SmartCharging: Use Master Switch
+4e9de42 SmartCharging: add reset battery stats option [2/2]
+88667cb SmartCharging: allow user set resume level [2/2]
+7b0af5e Settings: Smart Charging (2/4)
+564eb58 [4/4] Port face unlock feature
+22636e6 vendor: Add Lockscreen Clock & Date Fonts [3/3]
+a181f12 vendor: Add permissions for Custom doze
+b74bba6 Smart Charging: chown all known charge suspend nodes
+721798e Smart Charging: rework for using more common sysfs node [2/2]
+979c5ce vendor: Smart Charging (4/4)
+cc95a37 vendor: Build CustomDoze for all devices
+
+=======================
+     04-16-2020
+=======================
+
+a737edb base: [SQUASHED] Clean-up Doze stuffs!
+
+=======================
+     04-15-2020
+=======================
+
+f2ca6be SystemUI: add pulsing callback to KeyguardUpdateMonitor
+3645f29 base: Make Pulsing bright again
+
+=======================
+     04-14-2020
+=======================
+
+4768ca1 base:Add support to overlay more packages [2/2]
+de3079e ScreenDecorations: Clean up tuner API
+ede70fe Rounded Corner: Code improvement and clean up
+52d781b Update rounded corner radius path for Android 10
+6e3d599 Allow tuning extra padding for status bar
+550e1e9 Custom Rounded Corner and Padding preferences [1/2]
+6620823 SystemUI: Fix GlobalActionsDialog layout on low DPI
+8d49228 pocket: Reduce sleep timeout for pocket lock
+6af488c PocketLock: Remove animations
+e3a5b1b pocket: Use MD2 lock drawable
+f963341 Pocket lock improvements
+7031800 pocket: Fix pocket lock view for display cutouts
+535c0a7 pocket: Adjust sleep timeout for pocket lock view to 10 secs
+de9b1a8 pocket: introduce pocket bridge
+25b033d PocketService: Adjust light sensor rate to 400ms
+4ce123b pocket: Add hardware acceleration and properly maintain SYSTEM_UI flags
+5f54207 policy: introduce pocket lock
+5dedb1d pocket: introduce pocket judge
+32e1115 SystemUI: kill Ambient edge pulse animation on hide
+46cc92d SystemUI: Ambient lights don't hide AOD content when user has enabled AOD
+599f42f SystemUI: Ambeint Edge Pulse layout [1/2]
+87ab37b SystemUI: Ambient pulse animation [1/2]
+7ddb893 SystemUI: Repeat edge light animation on all doze wake [1/2]
+417e295 SystemUI: Edge Pulse Accent Color [1/2]
+c068aeb SystemUI: Improve edge pulse
+6e7910e base: Add an option to pulse edge light for all doze triggers [1/2]
+d642478 SystemUI: only call  showAodContent(true) if we are still on the keyguard
+a7d5552 SystemUI: replace pulse light drawable with our own vector
+99fc55e SystemUI: use ROWS_HIGH_PRIORITY for active notification pulse check
+87a81a0 SystemUI: kill any leftover notification pulse on new pulse start
+c52199d SystemUI: add Ambient Lights always on hide aod content option
+e0de730 SystemUI: trigger pulse light only for notifications
+7633ba5 SystemUI: add Pulse and Ambient notification bars [1/2]
+8d29b48 Ambient Edge Pulse Customizations [1/2]
+54294be AmbientVisualizer: Add separate option to change opacity [1/2]
+6198050 SystemUI: Fix ambient pulse notification layout
+7783afb base: Add ambient pulse notification [1/2]
+15e3c6c base: Fix a derp in Type clock!
+beb8201 TypoClock: User selected Font Style & Font Size [1/2]
+fdff128 TypeClockController: Make it compile with new plugin API
+d2c8b98 Revert "Disable ClockOptionsProvider so clocks don't appear in picker app"
+e8f005b Revert "Disable custom clock faces in SystemUI"
+c424897 Revert "Drop final remnants of Type clock face"
+92b1f6d Revert "Drop Type clock face."
+d0ebd31 add NotificationColorUtil back
+1cd1fd3 Add in analog clock with numbers [1/2]
+8c19e6f Lockscreen Clock Styles: add Analog clock [1/2]
+a64e838 Decrease line spacing in sammy clock styles
+51abc9b Add sammy accent clock and a variant [1/2]
+5be4d49 Lockscreen Clock Styles: Introduce Q style text clock [1/2]
+5e30086 LockScreen Styles: Do not hide entire container. We need Date Slice View
+953a657 base: Introduce lockscreen clock/date styles [1/2]
+124d77c Navbar: Add navbar layout inversion tuning
+8b853eb Navbar: Fix navbar layout switch and remove old cruft
+7c127f1 Navbar: Fix Navigation Bar hiding
+56763f4 Navbar: Use FORCE_SHOW_NAVBAR to actually toggle
+a61265c Navbar: Add support for runtime toggle
+51b49cf base: tuner: bring back tuner navbar editor from N
+1bec30c Navbar: Allow the launch navbar fragment externally
+fbbff1d base: Suspend Actions [1/3]
+3974249 Cutout force full screen: Remove fullscreen checks
+d6f6564 base: [1/2] Implement cutout force full screen
+dfda1f7 base: Live Volume Steps [1/2]
+fd52469 Aggressive Battery: fix auto enable on battery saver
+3dedf89 core: Implement Aggressive Battery [1/2]
+bba0fde Smart Pixels: Update default grid pattern
+fecd4b3 SystemUI: Add Smart Pixels tile
+90da9fe Smart Pixels: Bypass check for obscured window
+f8a2fcc Smart Pixels: Dynamically register receiver
+44ac04d Smart Pixels: Switch to registered receiver
+b4f47f4 Smart Pixels: Move out of SystemUI
+699c1fd SystemUI: Smart Pixels [1/2]
+a1bc1da SystemUI: screen-dimmer-pixel-filter
+f353c73 SystemUI: old style mobile data type indicator layout update
+a92bfb6 SystemUI: bring back old style mobile data indicators
+cba68d5 base: Ambient Visualizer [1/2]
+1b51a9e base: Screen off animations [1/2]
+f1dd42e Utils: Add method to determine battery temp
+c0bbad8 base: Add Rebellion VoLTE-icons
+bb02dff VoLTE Icon - User Selectable VoLTE Icon [1/2]
+
+=======================
+     04-13-2020
+=======================
+
+8bf2eda LS OwnerInfo Fonts & Size Options [1/2] SuperdroidBond:- It's done on the basis of LS Date Font & Size. Port to O -> P -> Q
+2fa6ed9 LS Weather Temp & City Fonts [1/2] Port to O -> P -> Q
+bb3aedf Welcome Back Lockscreen Item Colors [1/2] Port to O -> P -> Q
+89f2c75 Lock Clock & Date Font Size [1/2]
+3162f12 base: allow hiding lockscreen shortcuts on secure lockscreen [1/2]
+591e995 base: Lockscreen Date Fonts [1/2]
+1f40d87 Lockscreen Clock Widget Fonts [1/2]
+acfdaa7 DozeUi: do not prepare for gentle wakeup
+064f7fc SystemUI: fix black screen after AOD_PAUSED
+72953c5 base: do not use new lockscreen layout for bypass
+718f09a SystemUI: Fix custom lockscreen wallpaper
+d1617bc base: Proper fix of Android Auto
+558b2c8 DozeTriggers: Add @hide to "Add provision to pulse without proximity check"
+b2947c3 DozeTriggers: Add provision to pulse without proximity check
+8906348 Revert "Apply front scrim to doze pulsing"
+d6867c7 base: SystemUI: add separate config for pulse brightness [1/2]
+09e4269 base: Fix Advanced powermenu crash after merge
+d2316d3 SystemUI: Allow listening for face only on pin/pass view
+52f561b UninstallAlertDialogFragment: Catch IllegalArgumentException
+389df2e [3/4] Port face unlock feature
+58e396b base: Ambient Display battery toggle [1/2]
+
+=======================
+     04-12-2020
+=======================
+
+
+=======================
+     04-11-2020
+=======================
+
+c70f6c5 Ambient music: pulse on new tracks even if all Ambient options are off
+c0a964d Ambient music: add Pixel Now Playing support
+1714e52 Ambient music ticker AoD: make it compatibile with double tap sensor
+f618033 Ambient music ticker: double tap on track title to skip track
+13c9d29 ScreenOff skiptrack: support Spotify/kdeconn/... remote sessions
+2ae99b1 Ambient music: allow to pulse on new tracks [1/2]
+6127634 SmartCharging: add reset battery stats option [1/2]
+ff11012 SmartCharging: allow user set resume level [1/2]
+8d9bb9f Smart Charging: allow using device overlays
+7a3b2ea Smart Charging: rework for using more common sysfs node [1/2]
+3094a8e base: Smart Charging (1/4)
+feaaf41 base: Double tap to trigger doze [1/2]
+8e4a632 base: add option to enable AOD on charging only [1/2]
+35b236e CustomDoze: Fix custom gestures not working if default pulsing is disabled [1/2]
+736a2b1 vendor: [2/5] Port face unlock feature
+
+=======================
+     04-10-2020
+=======================
+
+
+=======================
+     04-09-2020
+=======================
+
+cb43973 Rebellion: add rules for RGB accent & gradient picker
+
+=======================
+     04-08-2020
+=======================
+
+1245b99 Merge tag 'android-10.0.0_r33' of https://android.googlesource.com/platform/build into ten
+e6aa9e5 Merge tag 'android-10.0.0_r33' into ten
+dba277a Manifest: Track Clang from our org
+955b0fc Manifest: Track Updater & Omni stuffs!
+d8196e3 Merge tag 'android-10.0.0_r33' into ten
+3d45d61 Merge tag 'android-10.0.0_r33' of https://android.googlesource.com/platform/system/bt into ten
+
+=======================
+     04-07-2020
+=======================
+
+6b03cdf Automatic translation import
+792f08e Merge tag 'android-10.0.0_r33' of https://android.googlesource.com/platform/frameworks/av into ten
+2d3d84c base: QS header improvements
+0f77d4f SystemUI: respect status bar header height also in edit mode
+e165f25 base: SystemUI: header image tweaks aka the big marginator [1/2]
+01b0f6a base: qs status bar header image [1/4]
+46809a4 base: QS panel opacity [1/2]
+ad788fd Merge tag 'android-10.0.0_r33' of https://android.googlesource.com/platform/manifest into ten
+7d5f038 OmniStyle: Add Rebellion Headers
+3a674df Rebellion-Hub: Add keyguard weather style [2/2]
+2de9da0 Rebellion-Hub: qs status bar header image [2/4]
+0869fab Rebellion-hub: QS panel opacity [2/2]
+95363d3 Rebellion-hub: Add switches for Weather Image as well
+f8d37ab Rebellion-hub: Add switches to show city/temp on lockscreen [2/2]
+5b2955b Rebellion-Hub: Add back weather parts [2/3]
+092b8ef OmniJaws: Add Rebellion api key for OpenWeatherMap
+f9645ae vendor: Add violet to Official
+2d33612 vendor: Build OmniStyle
+fac4ba5 vendor: Add OmniJaws and WeatherIcons
+
+=======================
+     04-06-2020
+=======================
+
+91b3151 Add Toggle for LockWeather Image [1/2]
+7faacdc base: make google the default weather icon pack
+7f40399 Weather: Add switches to show city/temp on lockscreen [1/2]
+ac74a9b base: SystemUI: add keyguard weather style (1/2)
+68bbd94 base: add weather to keyguardSlice
+affaa2a base: SystemUI: make keyguard weather icon smaller
+79bec16 base: SystemUI: keyguard weather view - fix initial kick off after boot
+a31d995 base: SystemUI: fix debug drawing lines for icon containers
+6c8fb98 base: SystemUI: hide keyguard weather when pulsing
+716d635 base: SystemUI: keyguard weather view [1/2]
+aa568cf base: SystemUI: check for installed OmniJaws in qs details
+1149cb8 base: SystemUI: filter service disabled broadcast for qs weather tile
+f48a61a base: Bringin UserContentObserver from DUtils
+f28a912 Weather tile longclick: alternative weather apps when google weather not installed
+1ad586e WeatherTile: Start Google Weather on LongClick
+ddae23e base: SystemUI: no need for extra tint of qs weather tile
+1acaa3e base: SystemUI: add missing text tint in weather details
+7183a9f base: SystemUI: weather: display wind direction as pinWheel and not degrees
+9b74d3c base: SystemUI: add tinting for OmniJaws provided QS images
+713a3f5 base: SystemUI: change disabled QS weather tile image
+6966498 base: SystemUI: OmniJaws qs tile integration
+53eb0bc base: Remove Lockscreen weather
+d89278f base: Back to OP Switch styles
+2f5ccc0 base: GlobalActionsDialog: Fix advanced reboot crash
+8caafbc base: Update some icons to MD2
+a4c408b base: Use MD2 icon for missed call notification
+867ba42 base: Update ic_doc_folder drawable to MD2
+97539a5 base: Refractor Change default StatusBar clock Font
+f96fedb WindowStateAnimator: Fix NPE with wallpaper offset
+9c156c8 Rebellion-Hub: Add Switch to show Battery in QS Header [2/2]
+f885384 Rebellion-Hub: Hide Statusbar on Lockscreen [2/2]
+0261416 Rebellion-Hub: [SQUASHED] Statusbar logo and positions [2/2]
+0e27fd9 Updater: Change Changelog's Path
+2971ac2 vendor: Change Default wallpaper!
+
+=======================
+     04-05-2020
+=======================
+
+f79c7fe faceunlock: Import blobs
+572683a base: [SQUASHED] Add Switch to show Battery in QS Header [1/2]
+b37bc20 FWBase: Add 7 more power menu animations [1/2]
+8ecfcfa Power Menu animations [1/2]
+e930f21 BatteryLight: Full Charge Only, Fast Charge & Fast Charge Led colors [1/2]
+e039373 Notifications light: Add @hide to fix build
+9072492 Notification lights: use default resources for color on and off [2/2]
+eca3d60 LEDs: fix default color
+be63811 Allow to customize notification led light [2/2]
+d51f21d Enable notifications led light by default [1/2]
+7c3f063 Battery light customization [1/2]
+0a40f0a AbsListView: Fix widget couldn't find any view fc
+9b12a3f Return: Listanimation Views and Interpolator [1/2]
+10d3750 Add option to disable scrolling cache [1/2]
+06a1b7e Allow toggling animations off [1/2]
+c57ff48 FW_Base - XuiMod: Toast Animations [1/2]
+c2c2499 Add Ethans animations
+3159f4c AOKP custom system animations (1/2)
+285ffd2 Add api to force show led lights
+c55004a Add New Logos for Statusbar [1/2]
+daa34c2 base: [SQUASHED] Status bar logo [1/2]
+bb38c1d Make carrier label's visibility gone
+83c3e3b Carrier Label: Bring back the scroll (marquee) effect
+27077fd Hide Statusbar on Lockscreen [1/2] Taken from Omni ROM FWB- https://github.com/omnirom/android_frameworks_base/commit/0b833a0fc797d21c632ff1e49c64d6ebff97d90d
+210431a Custom Carrier Label & Carrier Label Placement [1/2]
+96a1258 base: Add switch to show UserIcon & Settings in QS Footer [1/2]
+dd67b2d Rebellion-hub: [SQUASHED] Power Menu animations [2/2]
+9fa7085 Rebellion-Hub: BatteryLight: Fast Charge & Fast Charge Led colors [2/2]
+28ec17c Rebellion-Hub: Battery light colors: show reset to default button
+cde76ca Rebellion-Hub: Battery led customization: activate led light preview
+9123c2c Rebellion-Hub: Battery light customization [2/2]
+c94520c Rebellion-Hub: Add option to disable scrolling cache [2/2]
+9234bbd Rebellion-Hub: Listanimation Views and Interpolator [2/2]
+917887f Rebellion-Hub: Allow toggling animations off [2/2]
+4286e94 Rebellion-Hub: Toast Animations [2/2]
+d718d9c Rebellion-Hub: AOKP custom system animations [2/2] - Work by AOKP team and ported by @cristianomatos @crdroidandroid
+123b4e7 Rebellion-Hub: [SQUASHED] Custom Carrier Label & Carrier Label Placement [1/2]
+0a0dd5b Rebellion-Hub: Move in Gestures from Settings [2/2]
+07e4fd9 Settings: Move Gestures to Rebellion-Hub [1/2]
+
