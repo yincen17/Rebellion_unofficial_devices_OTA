@@ -56,5 +56,16 @@
            }
       ]
 }
-
+ {
+      "brand": "Xiaomi",
+      "codename": "tulip",
+      "name": "Redmi Note 6 Pro",
+      "supported_versions": [
+         {
+            "maintainer_name": "nshorty",
+            "maintainer_url": "https://t.me/andrysciortino",
+            "version_code": "ten",
+            "version_name": "Ten",
+            "xda_thread": "https://forum.xda-developers.com/redmi-note-6-pro/development/rom-t4086867"
+         }
 ]
