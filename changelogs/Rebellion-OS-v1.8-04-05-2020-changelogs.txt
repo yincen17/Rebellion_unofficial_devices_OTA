@@ -1,0 +1,647 @@
+=======================
+     05-07-2020
+=======================
+
+
+=======================
+     05-06-2020
+=======================
+
+4690d6de8 Merge tag 'android-10.0.0_r35' into ten
+4ae451fe Merge tag 'android-10.0.0_r35' into HEAD
+8f225b9 sepolicy: Add rules for FPS info
+a6ada2c21 Merge tag 'android-10.0.0_r35' into ten
+ae73aee59d9 base: Fix Keygaurd layout
+659cac1fdd6 Merge tag 'android-10.0.0_r35' into ten
+18df9d330c8 base: Disable Long press ScreenRecording
+cf70dc85809 base: Add support to disable h265 on screenrecorder
+52f13cc1377 ScreenRecordTile: Make default state inactive
+fded0dbb192 SystemUI: Add ScreenRecord Tile
+9502d24874d screenrec: Layout improvements and summary cleanup
+f7a0ee73ac3 base: Set a better screenrec notification icon
+3681014548f Screen rec: Add support for AudioPlaybackCapture
+db0fd540943 Screenrec: Switch to low quality switch to a bitrate selector
+84ec104d99e ScreenRec: Put the recording icon in the recordie palette
+5340919bacc Screenrecord: Android R dev preview style dialog
+6a43ddeedd6 Screenrecord dialog: Make it less ugly
+a79678e3374 Add a new screenrecord icon for statusbar
+df7d1e4b940 Screenrecorder: don't show heads up notification
+0a910dc14e1 Screenrecord: exclude dialog from Recents
+b09bfb236b7 Screenrecord: remember last recording options
+f727ff35e16 Screenrecord: fix FC when using custom dpi values
+718f74dac92 Screenrecord: fix possible SystemUI FC when stopping
+853e9f69e14 SystemUI: ScreenRec: Redesign the dialog
+fe48c6eb0b1 Screenrec: use HEVC H.265 codec, add low quality option, fixes
+5c6b526782d Unlink screenrecord toggle from featureflags and enable it
+01b465beb94 Screenrec: allow to show a blinking red stop dot
+00d7b5d53a0 Screenrecord: Change save location and make sure dirs exist
+5036a1d4b28 ScreenRec: show MediaProjection permission warning only once
+f76638a07ec Screenrecord: Start delayed
+c34d7f3240c base: Use Vibration Haptics on Long swipe
+6e7d068b6 native: Screen Stabilization [2/2]
+0bbdb1c Manifest: Merge tag 'android-10.0.0_r35' into ten
+76c4c6b Manifest: Track StitchImage & Lottie
+52964edab Dialer - Breathing missedcall/sms/voicemail [2/5]
+6be93ec Messaging - Breathing missedcall/sms/voicemail [4/5]
+ac10b0a Rebellion-Hub: Add ZenParts [1/2]
+c776dba Rebellion-Hub: Rearrange for good lookin'
+295fcc8165 Settings: Add an option to change the device hostname (2/2)
+f5283880c1 Settings: add support for adb over network [2/3]
+0f04fc41d4 Settings: Revert "Improve Selinux Status in About Phone"
+d3a041d3b0 Merge tag 'android-10.0.0_r35' into ten
+4b1143235f Settings: Switch: Respect system haptic feedback setting
+43c44699d8 Settings: Add haptic feedback to Switches
+cccc831494 Disable dashboards conditions and suggestions (2/3)
+4362d7a53 services/Telephony - Breathing missedcall/sms/voicemail [3/5]
+6548f63d6 ]Merge tag 'android-10.0.0_r35' into ten
+070c219b Update prebuilt Clang to r383902.
+081bc69 vendor: Update prebuilt Wallpaper
+e31ac66 vendor: Build StitchImage
+c08bf75 vendor: Prepare for v1.8
+d3e844e support: Switch: Respect system haptic feedback setting
+daffc1d support: Add haptic feedback to Switches
+1f807d0 Support: Import few Preferences
+
+=======================
+     05-05-2020
+=======================
+
+3354460 StitchImage: Make it system friendly
+56e666a Change screenshot storage path
+55bf266 Automatic translation import
+0304c4f stitchimage: Imports blobs
+f2bb375f180 base: Switch: Respect system haptic feedback setting
+d2b5220006d base: Add haptic feedback to Switch
+66bfc5e5885 SystemUI: Make header image height offset user configurable [1/2]
+2b2a5b9b980 fwb: Port long screenshot implementation from Asus
+6eaa0ec3b21 QS: Add and use Bluetooth Panel instead of full Settings
+97443e8311c base: Update BT Battery drawables
+f578ade Rebellion-Hub: GameMode: Remove hwkeys toggle on non-hwkeys devices
+0ee659b Rebellion-Hub: Prevent NPE in gaming mode settings
+83285e2 Rebellion-Hub: Bring back Gaming mode [3/3]
+cf77800 Rebellion-Hub: Added features flash-call-on-waiting [3/3]
+99bbc28 Rebellion-Hub: Add Flashlight blink on incoming calls [2/3]
+9b9b2ac Rebellion-Hub: Add QS Blur settings
+f163abc Rebellion-Hub: Make header image height user configurable [2/2]
+4a048e0 Rebellion-Hub: Q clock center position [2/2]
+4e4fb7b Rebellion-Hub: Add Bootleg's Date styles [2/2]
+b5f89ca Rebellion-Hub: Add Q beta pill Date Style [2/2]
+498d105 Rebellion-Hub: Lockscreen date styles [2/2]
+f508a09 Rebellion-Hub: Allow hiding the lock icon on lockscreen [2/2]
+8104ec7 Rebellion-Hub: [SQUASHED] Status bar notification ticker [2/2]
+c94ab509eb Settings: Bring back Gaming mode [2/3]
+88526dc95e Settings: Improve Selinux Status in About Phone
+019c1e51b7 Settings: Google dont be such an a..hole doing app themes
+b5266bd943 Settings: Display: font size in 5% steps from 80% to 130%
+62e666d5b4 Settings: add pair new to BT panel slice
+7d83440578 Settings: panels: Add Bluetooth panel
+77bfccf6e4 Settings: panels: Improvements
+48d1b77180 Settings: Clean up running services fragment layout
+13381db5f5 Settings: fix hardcoded black text in storage summary
+19a22f060b panels: fix data usage display on mobile panel
+7963273245 Settings: panels: Add Mobile Data panel
+6a692b8e29 Allow for customizing the length of the navigation handle [2/2]
+3db993b812 Settings: Allow to hide arrow for back gesture [2/2]
+a449199ccd Gestures: Hide pill in full gestural nav mode [2/2]
+6305707cbb Allow long back swipe on bottom screen when launcher is showing [2/2]
+ede9806fd5 Allow a wider back swipe to trigger actions (instead of timeout) [2/2]
+fc2a633b07 Allow long back swipe to trigger custom actions/app/activities [2/2]
+
+=======================
+     05-04-2020
+=======================
+
+32bd331 Rebellion-Hub: Allow customizing footer text [2/2]
+81ffcfc Rebellion-Hub: Add a toggle for QS footer text [2/2]
+
+=======================
+     05-03-2020
+=======================
+
+e7eb8ba85d8 base: Fix-up BT Battery Level Toggle
+b653a69d0ac base: Redo expanded volume panel for 10.x
+20e8be48855 base: Improve QS Header Weather Image Layout
+54d9feb Rebellion-Hub: Switching audio panel position [2/2]
+16de955 Rebellion-Hub: Statusbar weather [2/2]
+82436e4 Rebellion-Hub: Extended audio panel [2/2]
+0e9e91a Rebellion-Hub: Move Screen Shot Type to System
+27c718c Rebellion-Hub: Volume dialog timeout (2/2)
+7043904 Rebellion-Hub: Statusbar Bluetooth Battery Level [2/2]
+a971592 Rebellion-Hub: Power menu alpha and dim (2/2)
+2d494d3 Rebellion-Hub: Omni Doze settings & TimeInState [2/2]
+
+=======================
+     05-02-2020
+=======================
+
+212b7b9b0d7 base: Fix Typo in StatusBar Clock Font styles
+16fbde30f7e base: User Selectable Network Traffic Fonts [1/2]
+fb8f41a0021 base: Network Traffic Improvements
+64f3891 Rebellion-Hub: Allow Customizing QS Rows [2/2]
+2e699be Rebellion-Hub: AlarmsBlocker [2/2]
+032ab15 Rebellion-Hub: WakelockBlocker [2/2]
+b72c946 Rebellion-Hub: User Selectable Network traffic Fonts [2/2]
+
+=======================
+     05-01-2020
+=======================
+
+c738e37f707 base: OOS style brightness thumb
+df67fa1adf0 base: Move actions into its own class [SQUASHED]
+e4f507e5dfe ActionUtils: Reverse actions for QS and notification panel
+377cc15357f base: allow for customizing the length of the navigation handle [1/2]
+1af2b711031 Extended swipe double arrow: don't show if option is disabled
+f7f6f3ed2f7 Gesture nav extended swipe: show a double arrow when almost triggered
+2c38c54b743 Gestures: Back long swipe improvements
+722baa02d3f Add kill app action to nav swipe actions [1/3]
+ecc430f7149 Add kill-app api (with new fresh implementation)
+c035ffe4d0c Allow long back swipe on bottom screen when launcher is showing [1/2]
+2bbdf2472c4 Allow a wider back swipe to trigger actions (instead of timeout) [1/2]
+6a230231d19 Move actions to ActionUtils [1/2]
+54ee5b10465 Allow long back swipe to trigger custom actions/app/activities [1/2]
+1edced38194 QS: Use Mobile Data panel for CellularTile
+5dc7e6734f2 QS: Add and use Mobile Data panel
+625ec6a895f QS: Use Settings.Panel intents for WiFi and NFC
+04aa046937c SystemUI: Fix QS tiles clipping when too many icons in view
+d1dd041e8b0 ScreenStabilization Tile: Settings Menu integrated in Tile itself(long click)
+0c15bcd219d Add ScreenStabilizationTile in QS
+210b8fcedd6 Make screen stabilization more responsive
+85c73fcabd0 Screen Stabiization [1/3]
+09aa93f4f57 base: [SQUASHED]: Remove Screen Stabilztion commits
+ffea5526046 base: lightservice: strengthen useScaleBrightness checking
+e3cd2bc3130 fwb: Conditionally set scaled brightness
+3e2051e618d Switching audio panel position [1/2]
+af5fae7c2c4 TextClock: Add option to set Q clock at the Center [1/2]
+9cd60cebd48 Convert VPN Server endpoint to numeric
+50f54039715 hwui: Relax the desiredPresent time in RenderAhead feature
+bb28e90 Rebellion-Hub: Max Lockscreen Notification count [2/2]
+48da1f2 Rebellion-Hub: Signature spoofing [2/2]
+df7fbbf Rebellion-Hub: Sensor block per-package switch [2/2]
+8b314b7 Rebellion-Hub: Breathing missedcall/sms/voicemail [5/5]
+e72d86c Rebellion-Hub: Custom Toast color options [2/2]
+3fb66a3 Rebellion-Hub: Disable dashboards conditions and suggestions (3/3)
+049a667 Rebellion-Hub: Optional screenshot type [1/2]
+2205895 Rebellion-Hub: Rotation anim to Power and reboot menu [1/2]
+d55c2ea Rebellion-Hub: On-The-Go Mode [2/2]
+
+=======================
+     04-30-2020
+=======================
+
+57ffb99a30e QS: Fix extra lines when icon number is small
+921a066bf9c SystemUI: Fix extra page in QS when the last page is full
+29aa9af667a SystemUI: Fix qs page num calc algo
+600590b12d5 Revert "SystemUI: fix qs page num calc algo"
+27069d6 Rebellion-Hub: Add powermenu Background Filters [2/2]
+24b7ac7 Rebellion-Hub: Improve Screen summary
+dbc300d Rebellion-Hub: Add separate config for pulse brightness [2/2]
+e87f2f7 Rebellion-Hub: Add option to change ambient visualizer opacity [2/2]
+8e4b6d6 Rebellion-Hub: String, Summaries Improvements & categorize QS
+5ddc027 Rebellion-Hub: Separate Lockscreen, Carrier & Statusbar clock Fonts
+573f6af Rebelion-Hub: Add More Lockscreen Clock & Date Fonts [2/3]
+6e4bde9 Rebellion-Hub: Remove Rounded corners out of fragment. * Show it in Screen
+1a23c84 Rebellion-Hub: Screen off animations [2/2]
+72e1d29 Rebellion-Hub: [SQUASHED] Add Ambient Edge Pulse [2/2]
+66db427 Rebellion-Hub: Readd Navbar Layout selection
+d25549e Rebellion-Hub: Bring back old style mobile data indicators
+282960f Rebellion-Hub: Add Display Cutout Settings [2/2]
+362de88 Rebellion-Hub: Suspend Actions [3/3]
+2abb07e Rebellion-Hub: Implement Aggressive Battery [2/2]
+102c387 Rebellion-Hub: Smart Pixels [2/2]
+08d89eb Rebellion-Hub: Add Pocket judge
+913b3ea Rebellion-Hub: Unlock keystore with fingerprint after reboot (2/2)
+8c02b8b Rebellion-Hub: Add 'Invert layout' to navigation bar settings
+c5a6701 Rebellion-Hub: Live Volume Steps [2/2]
+a89de5f Rebellion-Hub: Ambient Display Visualizer [2/2]
+0e10119 Rebellion-Hub: Custom Rounded Corner and Padding preferences [2/2]
+a26c41a Rebellion-Hub: Add Screen fragment
+ab1474e Rebellion-Hub: Allow hiding lockscreen shortcuts on secure lockscreen [2/2]
+d5dbe2e Rebellion-Hub: Add rebellion-VoLTE Icons [2/2]
+18f1db5 Rebellion-Hub: VoLTE Icon - User Selectable VoLTE Icon [2/2]
+44ab545 Rebellion-Hub: Add in analog clock with numbers [2/2]
+d69a55e Rebellion-Hub: Add Analog clock [2/2]
+c048f49 Rebellion-Hub: Add sammy accent clock and a variant [2/2]
+741149e Rebellion-Hub: Introduce Q style text clock [2/2]
+bdbe170 Rebellion-Hub: Introduce lockscreen clock/date styles [2/2]
+3e5f51b Rebellion-Hub: Welcome Back Lockscreen Item Colors [2/2]
+8dc17f1 Rebellion-Hub: Add Lockscreen UI
+6e9106b Rebellion-Hub: Add CustomDoze
+
+=======================
+     04-29-2020
+=======================
+
+8710b557845 base: add Bootleg's Date Styles [1/2]
+8fe701e3607 base: add Q beta pill background [1/2]
+414a1eadf2c Introduce lockscreen date styles [1/2]
+d8bf300e7c0 Allow hiding the lock icon on lockscreen [1/2]
+4e51c9eebf8 Bring back ticker for music ticker and Android 10 fixes
+a3fc6e252b9 NotificationService causes watchdog issues and improves performance
+30c2fb6c883 Status bar notification ticker [1/2]
+0c70d1bb7d5 base: Show Keygaurd charging Animation in Ambient
+74a66127516 Add toggle for charging animation [1/2]
+49c6f989102 SystemUI: Animate the keyguard when charging
+0f946acbd9e SystemUI: Allow customizing footer text [1/2]
+6ec8976a04b base: Add a toggle for QS footer text [1/2]
+d482b4a0073 Revert "SystemUI: Remove build version from qs footer"
+c7ecc5a319e SystemUI: fix qs page num calc algo
+e0e23a87abb base: Add qs rows config [1/2]
+6948c0cb9bb FWB: Statusbar weather [1/2]
+41d1b00b750 config: longer wifi scan interval
+ac192e1d776 ViewConfiguration: misc changes (rev)
+14f9f351e9a Forward Port: Smoother Upload and Download Animation
+d321b5dcf30 core: res: config: allow all rotations
+71202c15716 core: res: config: brightness tweaks
+6c827b2ff11 core: res: config: shorten network transition timeout
+ee3bb7d9ea2 core: res: config: speed up animations
+13abe207524 extended audio panel [1/2]
+ca34269b9da frameworks: Fix null pointer Issue
+a2a32bb9269 FWB: Power/reboot menu transparency (1/2)
+859a6dbefad base: Volume dialog timeout (1/2)
+5116ac71ff6 Add ability to toggle bluetooth battery level [1/2]
+98c1c61fa2 Settings: Battery: Redesign BatteryMeterView
+747e92cafc Settings: Remove gestures from system summary
+d6b1a824ef Settings: Allow to choose lockscreen or Ambient on wake gestures [2/2]
+8853086fb2 Settings: Enable 3 fingers Swipe Screenshot
+310fcbb20c Settings: Disable stock battery percent toggle
+8db95f781e Settings: SmartCharging: Use Master Switch
+566ac11d59 SmartCharging: add reset battery stats option [2/2]
+3663ebcd06 SmartCharging: allow user set resume level [2/2]
+37b2e1b389 Settings: Smart Charging (2/4)
+fb1842faae Merge tag 'android-10.0.0_r33' into ten
+
+=======================
+     04-28-2020
+=======================
+
+1489afee484 Alarm Blocker: Shut up CONTEXT_MANAGER_ALARM_WAKEUP
+9991b05eac1 [1/2] base: Omni Doze settings & TimeInState Adapt for Pie
+90a34e2f7ac base: fix keyboard cursor control coding and make multiuser friendly
+af37f04cdd0 SystemUI: QS: Add CPUInfo toggle tile
+61823538d14 AlarmsBlocker [1/2]
+3025dd2f32b WakelockBlocker [1/2] ported by @faust93
+059fb1a61c2 Max Lockscreen Notification count [1/2]
+f828f5765a4 Add back increasing ring feature (1/3)
+5a1b376b609 android.view: Speed things up!!
+61d89b0db48 FWB: Sensor block per-package switch (1/2)
+908dda8199e Scroll: modified velocitytracker
+567908c3068 Speed up Orientation Listener
+ecff0dc4aba base: set scrolling to 0.006f
+f823c121533 Allow faster app switching
+832e6d98289 PM: Signature spoofing [1/2]
+6689a3fb680 Fw_base - Breathing missedcall/sms/voicemail [1/5]
+53fa232fe07 Status bar: Update notification count icons
+c2d1d27bf93 SystemUI: Forward-port notification counters [1/2]
+5c568b5b638 change some of the default values
+ac63b8c4d3b Remove dashboard tile summaries [1/3]
+fa5647417e2 Disable dashboards conditions and suggestions (1/2)
+eb52fbd4fdb Fw_base - Rotation anim to Power and reboot menu [1/2]
+2402a4b7b64 Fw_base - custom Toast color options (1/2)
+146d648c26f Add support for fake signatures, enabled per app by dynamic perms
+ffe317cad54 Support UnifiedNlp (microG)
+8050622fe0a base: Add Powermenu Background Filters [1/2]
+8b5af764703 base: Blur behind powermenu
+709d13a Manifest: Track ims from our org!
+7bff2fb Manifest: Track CustomDoze
+546dd2c vendor: Add APN Permission for systemui
+
+=======================
+     04-27-2020
+=======================
+
+5f43dd8f77a SystemUI: QS blur improvements
+27f1974 vendor: Add tulip to Official
+da132f0 vendor: Fix changelog generation after repo tool update
+7bb2661 vendor: Change default wallpaper
+0f4bbfe vendor: Add Lockscreen Clock & Date Fonts [3/3]
+d402272 vendor: Add permissions for Custom doze
+78df00c Smart Charging: chown all known charge suspend nodes
+5ff15e1 Smart Charging: rework for using more common sysfs node [2/2]
+23d8257 vendor: Smart Charging (4/4)
+0088031 vendor: Build CustomDoze for all devices
+
+=======================
+     04-26-2020
+=======================
+
+cf3b876ec18 QS: SystemUI: Add On-The-Go Tile
+89c6b9fe2be On-The-Go Mode (1/2)
+35c6563d68d Recents: Fix NPE while changing themes
+fb38dc2bd53 SystemUI: Keyguard: reduce bottom text size
+93bb7735dfd Ims: Add suppport for "Ims Preferred" WFC Preference
+2d7e41f5071 SystemUI: FPS Info improvements
+316ee35dee9 SystemUI: FPS Info Overlay & Tile
+656c413b0a5 Allow zero stride
+958a66f330c Enlarge EPSILON to 0.01 for android.display.cts.DisplayTest#testModeSwitch pass
+c8c6ae7255d base: Add support for DiracSound FX
+d9b6f336f7a Fix AoD front scrim being opaque at DOZE_PULSING.
+5331e533b77 SystemUI: Increase back gesture vibration duration
+37467c63f2c base: Introduce adjustable blur intensity [1/2]
+f87483ff01a base: Allow controlling QS blur alpha [1/2]
+64cd2d9b49b base: Blur behind quick settings [1/2]
+d8085f385f1 SystemUI: Add ImageUtilities
+6bcac0508da base: Fix a derp in GlobalScreenShot!
+d07c46c5238 base: Add back gesture haptic feedback toggle [1/2]
+705c7c40931 base: expose auto night mode sunset and sunrise values on API [1/2]
+60e6265fc26 base: fix TwilightService start and initial location update
+30c5367abf1 AoD: Always force brightness updates on pause
+0d093d985f1 Add auth framework for outgoing SMS messages.
+d0eeb0323c7 Telephony: NPE observed in Settings when click on Search settings
+39ef60987d0 Check if EIMS when confirming network
+08a4fb38cd3 net: modify connecitvity rematch logic to support MSIM devices
+3ea5125f3a6 Add ICCID into CarrierIdentifier
+9876bb44d4a BT: Send info if call is CS type from telecomm service to BT apps.
+1703832374e Emergency SMS carrier config flag
+9cdf82e10cd IMS-VT: Add config to control holding a video call
+e418d3232e5 SMS: Parsing of CDMA MMS notification carried by SMS
+088a48568a1 Telephony: Get SIM card capacity count of SMS
+a3d655eb45c IMS: Add carrier config for RTT always enabled
+d573dce0ced IMS: Conference URI support.
+0c9d1ea8df0 IMS: Propagate RTT capability of the called party to UI
+4fc4382df80 IMS: Add CALL_TYPE for audio and video inactive
+376366b8b8f IMS: Propagate call session property changed message
+ea7c2ab86b6 Use proper coded alphabet when a contact is written into EF_ADN of USIM.
+ccb9b8e7b0c SEEMP: framework instrumentation and AppProtect features
+3ecce0a4d92 Telephony: Add DisconnectCause values for clear code
+0e2307aa0a2 IMS: Add UT interface to query CF setting for service class.
+879ffa4f30c IMS: Add flag to control reset UT capability
+3aeeedbcd3b Add config to disable CDMA call forward/waiting
+314fd2aa538 Process: Use audio-app cpuset if available
+f74336d8d4c SystemUI: AODTile: Use MD2 Icon
+5540d98cb37 Disable long click for AOD tile
+eb1b8eb84e2 base: SystemUI: add config check for aod available in qs tile
+c74647b62cc base: SystemUI: Add AOD QS tile
+a760cf868e6 Add upgrade step to fix system sounds issue
+a2a5ff95fc0 SystemUI: Improve Screen stabilization settings layout
+b8fec248ebf SystemUI: Use MD2 icon for Screen Stabilization tile
+2d658da6a78 base: Screen Stabilization [1/2]
+f341519bb91 VibratorService: Update ONEPLUS_EFFECT_TICK constant value
+cde47cf0ffe VibratorService: Fix double click effect with OnePlus vibrator format
+92b938949c3 VibratorService: update constant values for OnePlus HAL
+f06e5a1eb41 base: Add vibration patterns from OOS
+7e858e843d0 base: In-call vibration haptics options [1/3]
+1d1dc314dfb base: Clean-up In-call-vibrations
+1d80f59ef48 Use non-wakeup alarm for delay constraint.
+069f042d120 Consolidate ActivityStack#finishCurrentActivityLocked checking
+e0e63f11e2c Partial screenshot block gestures/headsup: code improvements
+7e81f3f0142 GlobalScreenshot: do not capture multiple screenshots simultaneously
+3a54716b8bf Camera2: Notify fps as Session Based Parameter
+6b94b20cd10 Camera: Ignore torch status update for aux or compsite camera
+aa3a53a133b Camera: Skip stream size check for whitelisted apps
+83ac291b2c2 Camera: Skip HFR checks for privileged apps
+4456ca20754 Camera: Clearing exception for Extended Face
+5b2c967660d Camera: Extend face detection
+17233a7d88d Updates to "Context-aware Bluetooth airplane mode"
+92971336bff ScreenshotSelector: mark externally unused functions as private
+a0883d48af9 base: Updates to various icons
+9d033a93b1e Partial screenshot: Layout improvements
+acc819332fe Volume panel: Avoid multiple animations on touch spam
+10fe8c076e4 SystemUI: Block gestures and headsup on partial screenshot sessions
+c79f487ad5f ScreenshotHelper: ignore timeout when taking partial screenshots
+01ef9cd2cb2 SystemUI: implement better partial screenshot
+02488fde4d3 Properly set fonts and  icons on keyguard when changing styles
+ff0daed06fb overlays: Fix camera icon size
+39eaa13be3a Fix StorageManagerService linkToDeath more than one time when vold/storaged died.
+74a3bd14925 Camera: Avoid removing valid repeating requests
+057cd735043 CellularTile: Fix mobile data usage qs details view content
+a654c931f3f SystemUI: Allow hiding lock status icon [1/2]
+32acc256607 base: Set alert dialog message to use system font
+22b52f8ab00 base: Fix list style alert dialog to use system font
+2e52548434f SystemUI: Set user detail item to use system font
+4982194c84d PhoneWindowManager: Bring back vibrator DOUBLE_CLICK effect
+6c970cffaa6 VibratorService: Fix double click effect with OnePlus vibrator format
+09c1453e154 Check GL extension is supported before using it in glwallpaper
+c0e50273db9 Clean up class preloading
+ba2c537a3b4 VibratorService: Update constant values for OnePlus HAL
+cde840a8015 VibratorService: Implement OnePlus proprietary vibrator format
+e0746ee7fb8 PhoneWindowManager: Improve haptics
+faee878c669 EdgeBackGestureHandler: Change back gesture height intervals
+13e8c5e6909 Disable long click for SoundSearch tile
+06b41b7db77 SystemUI: QS: SoundSearchTile: Extend the use
+f7de27964e5 Add mechanism to improve consistancy of notification
+ab2694edbc3 Notify ClockChangedListeners on main thread
+51ade61bf50 Get clock title on demand
+061796aad62 Resolve NumberPicker display abnormal issue.
+34977a40fa3 Always use a positive value for timestamp
+0d02f501860 hwui: Avoid fake high input latency while vsync drifting
+df8c7caac6d base: Handle NPE for ContentObserver
+28253fc061b KeyguardView: Report transiting bouncer as shown
+2c526264da3 Update default config for headline fonts
+4557ec9198f Wire up default fonts with font engine
+a1ef791de42 Ambient music: send the proper pulse reason on slpi tap
+619efddcd8f base: Hide pill in full gestural nav mode [1/2]
+c02dc00b35f Allow tuning of heaptargetutilization
+18ca902ee15 Set the Network Specifier on Emergency SUPL
+6302f5ea0ac LockSettingsService : Restrict access to getpassword API
+663744724b4 PackageManagerService: Avoid NPE in matchComponentForVerifier
+990451bf5f1 Added features flash-call-on-waiting [1/3]
+b3260919d29 Select the proper request list size
+4d2091dd84b base: call log limit 500=>5000
+10490b60b6c Add an option to change the device hostname (1/2)
+944585ed24b base: SystemUI: [QS] Add adb over network tile
+db36e2a9a92 base: add support for adb over network [1/3]
+a824b93dcc6  base: Optional screenshot type [1/2]
+8f2808aa77a Treat default value that wasn't found as empty value
+3d8917dfe00 ServiceRegistry: Don't throw an exception if OEM_LOCK is missing
+5c1094bfe9c BatteryStats: Update WifiState even if EnergyInfo is invalid
+9686690cb0e display: Validate activePhysIndex before access
+54dc93a9c2e Add Flashlight blink on incoming calls [1/3]
+006961f0a0f AlarmManagerService: Add null check to QCNsrmAlarmExtension call
+a44cd911c32 DEBUG: Turn off some debugging we don't need.
+f006735c4e5 DataSwitchTile: collapse notification panel onClick
+7a07bf56192 Grant Wellbeing the SUSPEND_APPS perm if already declared
+d0ec7f955a9 Remove DUN requirement for tethering
+48c94b3210f Allow lid to send a generic COVER_CHANGED broadcast
+ba183bf8a54 SystemUI: DataSwitchTile: Use MD2 drawables
+c39c7880252 base: Introduce DataSwitchTile
+c7fbf97f46f SystemUI: Fix DnD icon margin in Volume panel
+8e1e4c63472 NavigationBarView: Avoid NPE before mPanelView is created
+c7ce34d175a Allow to hide arrow for back gesture [1/2]
+37eaf2c0422 Text battery style: show a bolt ⚡ when charging
+078c3a8d8f7 Reset permission when network becomes default again.
+e6c9f22f295 telephony: Make IMS method updateToState accessible
+94b4230f579 SystemUI: Use MD2 icons for Music tile
+18b3618d180 SoundSearchTile: Make default state inactive
+92bb7d33f2a Add Google Sound Search tile
+9cb2cd6097c RebootTile: Make default state inactive
+67a4734827a Extend reboot tile to add power off
+f99ead24000 Add Reboot/Recovery QS Tile
+90eb9cb9a4c MusicTile: Make tile state inactive if not playing music
+a86e55f5210 MusicTile: Clean up redundant code
+7f978a07d18 Add Music QS Tile
+67954c59c50 Disable long click for Compass tile
+6ffe9c356fe CompassTile: Add a device supports compass check
+3ddce5b6569 CompassTile: Do not use slashed icon
+6df9dfe0341 CompassTile: Set default state inactive
+fdd3e79e436 base: Add Compass tile
+7e2b5a3807b Configurable 0, 90, 180 and 270 degree rotation
+c5f20999812 base: Introduce Accidental Touch
+2d3d4a7dd5e base: Introduce new navigation bar key event source
+f14f5d2e0ae LteTile: Fix network modes for 10
+7923b53b588 Support more Network modes for LTE-tile.
+61e75d9edbf LteTile: multisim compatibility
+7dd869300d9 SystemUI: Add LTE Tile
+5a67de9120d SystemUI: Fix shouldSkipHeadsUp logic for Gaming Mode
+7dc11b383a2 base: Use MD2 drawables for Gaming mode
+450b5c9f8b1 base: Bring back Gaming mode [1/3]
+9ad863cae8f Add SystemSetting class analogous to SecureSetting
+c8efc820ff8 libs: hwui: Build using ThinLTO
+95c5509346d base: Remove QS detail items
+a22eb09851b Partially Revert "Don't update dark boot setting onStart"
+d24c920cf62 NetworkStatsHistory: Prevent IllegalArgumentException
+ba3fd0cf9b9 Keyguard: ReInflate views when density or font scale change
+b301bd0e708 SettingsLib: Don't show system overlays on apps list
+7bcbcf9643a Allow QS detail view to scroll
+3acbc033215 Add QSDetailItems
+2f05682093b QsFooter: Animate icons while showing/hiding
+cb430577d6f Brightness slider: Fix paddings
+aa23f8a38db Screenshot: remove white flash if dark mode is enabled
+0ae330445a4 SystemUI: Set proper margin and padding for lockscreen bottom shortcuts
+01029e80060 RingtoneManager: Don't crash if the ringtone doesn't have a numerical ID
+b4e1eed8dd4 Catch IllegalArgumentException in stopScreenshot()
+1bf7f2d3441 Keyguard: Fix failed unlock attempt dialog button
+1a4b7edf411 ProgressBar: Media volume bar indicates a wrong value
+e1b0262dcd4 AccountManagerService: Fix ConnectionRecord Leak
+a08d73592ed Fix NullPointerException of AMS
+9e6d81addbc AMS: Fix the null pointer exception in IntentResolver
+e100558db5b Fix MtpDatabase multithreading NullPointerException
+a2482cbdf6b ViewRootImpl: Fixed memory leak caussed by viewrootImpl objects
+9d66ddeb674 StorageManagerService: Fix for system_server crash while booting
+adbf78d9308 Crash occured due to null pointer exception.
+a859be00f94 Ambient brightness values: use a custom system setting [1/2]
+e7a2c162238 base: Fix Few Statusbar Clock fonts not applying!
+5d70ee4e77b base: Add more Lockscreen Clock & Date Fonts [1/3]
+6d8e1e6a34f DozeSensors: do not use binned brightness sensor for proximity if not supported
+150f4c4bf98 Allow to choose lockscreen or Ambient on wake gestures [1/2]
+99b939aae25 Ambient instead of lockscreen on wake gesture: code fixes
+84f9fe69d7f SystemUI: fix dt2s issue introduced during mismerge of r16 tag
+8be1ffd2f1f SystemUI: Improve EnhancedEstimatesGoogleImpl
+a283410be59 base: Donot Apply Gradient to Switches!
+9543951364b SystemUI: fix black screen after AOD_PAUSED
+20f3c5b5061 base: SystemUI: add separate config for pulse brightness [1/2]
+402077e755c base: Double tap for ambient display improvements
+3123713519d base: Double tap to trigger doze [1/2]
+18e1a256642 [BugFix] Fix enter deep doze when moving
+73b5c3e4359 SystemUI: Use doze_pulse_duration_visible as timeout for showing ambient notifications
+7f225b25d6a Modify start/stop condition for mScreenDozeTimer.
+e0933cf0aa2 base: [SQUASHED] Clean-up Doze stuffs!
+24d789f3130 SystemUI: add pulsing callback to KeyguardUpdateMonitor
+a8344448568 base: Make Pulsing bright again
+d3243e98bd6 base:Add support to overlay more packages [2/2]
+322749dcdb6 ScreenDecorations: Clean up tuner API
+b901e691626 Rounded Corner: Code improvement and clean up
+32ea1bdaf73 Update rounded corner radius path for Android 10
+2dbc161685b Allow tuning extra padding for status bar
+a4fab148463 Custom Rounded Corner and Padding preferences [1/2]
+abce59cce0c SystemUI: Fix GlobalActionsDialog layout on low DPI
+aeac4d31d9a pocket: Reduce sleep timeout for pocket lock
+ebd90e9b524 PocketLock: Remove animations
+245f0ccdff9 pocket: Use MD2 lock drawable
+3f334a97693 Pocket lock improvements
+c61fbe9ae3e pocket: Fix pocket lock view for display cutouts
+5658d98d8ae pocket: Adjust sleep timeout for pocket lock view to 10 secs
+d11dcba02e1 pocket: introduce pocket bridge
+e69001752e1 PocketService: Adjust light sensor rate to 400ms
+216725375e3 pocket: Add hardware acceleration and properly maintain SYSTEM_UI flags
+a17975784a0 policy: introduce pocket lock
+08aa5f57b42 pocket: introduce pocket judge
+d8acae434db SystemUI: kill Ambient edge pulse animation on hide
+783f70ab299 SystemUI: Ambient lights don't hide AOD content when user has enabled AOD
+0de6819a4e6 SystemUI: Ambeint Edge Pulse layout [1/2]
+43663207ff4 SystemUI: Ambient pulse animation [1/2]
+e1200bf71bb SystemUI: Repeat edge light animation on all doze wake [1/2]
+9fd8db83573 SystemUI: Edge Pulse Accent Color [1/2]
+2d74de3adf0 SystemUI: Improve edge pulse
+2338fe47fc0 base: Add an option to pulse edge light for all doze triggers [1/2]
+b350608ae2e SystemUI: only call  showAodContent(true) if we are still on the keyguard
+fe111563d98 SystemUI: replace pulse light drawable with our own vector
+c8c6d6469fe SystemUI: use ROWS_HIGH_PRIORITY for active notification pulse check
+1d64ebd8fbb SystemUI: kill any leftover notification pulse on new pulse start
+1e83c0f07a7 SystemUI: add Ambient Lights always on hide aod content option
+4dba5cd5025 SystemUI: trigger pulse light only for notifications
+466f4df23fd SystemUI: add Pulse and Ambient notification bars [1/2]
+c8450abbbfb Ambient Edge Pulse Customizations [1/2]
+3048c022081 AmbientVisualizer: Add separate option to change opacity [1/2]
+d7b07fba805 SystemUI: Fix ambient pulse notification layout
+50215cbf5ce base: Add ambient pulse notification [1/2]
+8616d7bd2c1 base: Fix a derp in Type clock!
+0b739d9d995 TypoClock: User selected Font Style & Font Size [1/2]
+11bff70bca4 TypeClockController: Make it compile with new plugin API
+380d6e5eb40 Revert "Disable ClockOptionsProvider so clocks don't appear in picker app"
+c2a3217eaf1 Revert "Disable custom clock faces in SystemUI"
+a72bcf7cf58 Revert "Drop final remnants of Type clock face"
+c757e158cd4 Revert "Drop Type clock face."
+4c2839137a8 add NotificationColorUtil back
+3613cc495ee Add in analog clock with numbers [1/2]
+7967dd032b4 Lockscreen Clock Styles: add Analog clock [1/2]
+184113681eb Decrease line spacing in sammy clock styles
+6425faea3b6 Add sammy accent clock and a variant [1/2]
+fc8320def8c Lockscreen Clock Styles: Introduce Q style text clock [1/2]
+c0072473194 LockScreen Styles: Do not hide entire container. We need Date Slice View
+d77e0ae37dd base: Introduce lockscreen clock/date styles [1/2]
+2e115d1913f Navbar: Add navbar layout inversion tuning
+215eaad18b4 Navbar: Fix navbar layout switch and remove old cruft
+610156fe2da Navbar: Fix Navigation Bar hiding
+7eebb79a570 Navbar: Use FORCE_SHOW_NAVBAR to actually toggle
+3f75695154d Navbar: Add support for runtime toggle
+0cbe14f0102 base: tuner: bring back tuner navbar editor from N
+0fe5d1261b0 Navbar: Allow the launch navbar fragment externally
+b667378ba1b base: Suspend Actions [1/3]
+92b7eb8561b Cutout force full screen: Remove fullscreen checks
+73ab36a2f6b base: [1/2] Implement cutout force full screen
+3e2ff0ba9eb base: Live Volume Steps [1/2]
+d743eee4457 Aggressive Battery: fix auto enable on battery saver
+661ee90e63d core: Implement Aggressive Battery [1/2]
+a06c84400dc Smart Pixels: Update default grid pattern
+2baac70b8f5 SystemUI: Add Smart Pixels tile
+0bf205136a8 Smart Pixels: Bypass check for obscured window
+630a7355a1d Smart Pixels: Dynamically register receiver
+55bd7df3d65 Smart Pixels: Switch to registered receiver
+167a3bb0cdd Smart Pixels: Move out of SystemUI
+441d8daaa1d SystemUI: Smart Pixels [1/2]
+f1f72b6f195 SystemUI: screen-dimmer-pixel-filter
+c10a4fb71c4 SystemUI: old style mobile data type indicator layout update
+3d6f27be00b SystemUI: bring back old style mobile data indicators
+ec1d7813bda base: Ambient Visualizer [1/2]
+c6dc48c9706 base: Screen off animations [1/2]
+90009ab4916 Utils: Add method to determine battery temp
+22f96918127 base: Add Rebellion VoLTE-icons
+c728fadeb65 VoLTE Icon - User Selectable VoLTE Icon [1/2]
+895df231c01 LS OwnerInfo Fonts & Size Options [1/2] SuperdroidBond:- It's done on the basis of LS Date Font & Size. Port to O -> P -> Q
+541c8c56911 LS Weather Temp & City Fonts [1/2] Port to O -> P -> Q
+30d25c76a24 Welcome Back Lockscreen Item Colors [1/2] Port to O -> P -> Q
+19bf0597b93 Lock Clock & Date Font Size [1/2]
+1371629fe95 base: allow hiding lockscreen shortcuts on secure lockscreen [1/2]
+c61c8a614e7 base: Lockscreen Date Fonts [1/2]
+2cbf3ec67cb Lockscreen Clock Widget Fonts [1/2]
+3e2ec90ab68 DozeUi: do not prepare for gentle wakeup
+9fd83932d8a SystemUI: fix black screen after AOD_PAUSED
+b5168b15953 base: do not use new lockscreen layout for bypass
+782babf5e7e SystemUI: Fix custom lockscreen wallpaper
+12f644bda2b base: Proper fix of Android Auto
+193b34a2961 DozeTriggers: Add @hide to "Add provision to pulse without proximity check"
+8e6c909d221 DozeTriggers: Add provision to pulse without proximity check
+cf2d97a1137 Revert "Apply front scrim to doze pulsing"
+548048b9659 base: SystemUI: add separate config for pulse brightness [1/2]
+9ee2d646d0a base: Fix Advanced powermenu crash after merge
+c1bb2b17ab0 SystemUI: Allow listening for face only on pin/pass view
+5618acaa Telecomm: Update code for flash on call waiting
+02d9048d Telecomm: Fix few issues with Blink with call
+0e91d470 Telecomm: Use EFFECT_CLICK for vibrate on call connect
+417fa3e5 Telecomm: Add vibration patterns from OOS
+26b4e635 Telecomm: In-call vibration haptics options [2/3]
+1bd888e9 Add synchronized lock when set call state ANSWERED
+64da399e Telecomm: Added features flash-call-on-waiting [2/3]
+
+=======================
+     04-25-2020
+=======================
+
+
+=======================
+     04-24-2020
+=======================
+
+538368a jni: Resolve property isolation issues
+7f0bd23 Automatic translation import
+
