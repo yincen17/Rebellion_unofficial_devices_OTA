@@ -68,4 +68,17 @@
             "version_name": "Ten",
             "xda_thread": "https://forum.xda-developers.com/redmi-note-6-pro/development/rom-t4086867"
          }
+}
+ {
+       "brand": "Xiaomi",
+       "codename": "riva",
+       "name": "Redmi 5A",
+       "supported_versions": [
+          {
+             "maintainer_name": "Angga_alfian",
+             "maintainer_url": "https://t.me/HLGN1932",
+             "version_code": "ten",
+             "version_name": "Ten",
+             "xda_thread": "https://forum.xda-developers.com/xiaomi-redmi-5a/development/rom-rebellion-os-t4088841"
+           }
 ]
