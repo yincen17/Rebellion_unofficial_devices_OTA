@@ -81,4 +81,16 @@
              "version_name": "Ten",
              "xda_thread": "https://forum.xda-developers.com/xiaomi-redmi-5a/development/rom-rebellion-os-t4088841"
            }
+    {
+       "brand": "Xiaomi",
+       "codename": "lavender",
+       "name": "Redmi Note 7",
+       "supported_versions": [
+          {
+             "maintainer_name": "Alien",
+             "maintainer_url": "https://t.me/JustAlien",
+             "version_code": "ten",
+             "version_name": "Ten",
+             "xda_thread": "https://forum.xda-developers.com/redmi-note-7/development/rebellion-t4108783"
+           }
 ]
