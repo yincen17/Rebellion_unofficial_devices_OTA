@@ -5,15 +5,15 @@
       "name": "Zenfone Max Pro M!",
       "supported_versions": [
          {
-            "maintainer_name": "Advaith Bhat",
-            "maintainer_url": "https://t.me/advaithbhat",
+            "maintainer_name": "Prabhat",
+            "maintainer_url": "https://t.me/@pkm774",
             "version_code": "ten",
             "version_name": "Ten",
             "xda_thread": "https://forum.xda-developers.com/asus-zenfone-max-pro-m1/development/x00t-t4027263"
          }
       ]
    },
-   {
+    {
       "brand": "Xiaomi",
       "codename": "mido",
       "name": "Redmi Note 4X",
@@ -27,7 +27,7 @@
          }
       ]
    },
-{
+    {
       "brand": "Xiaomi",
       "codename": "whyred",
       "name": "Redmi Note 5 Pro",
@@ -41,9 +41,8 @@
          }
      ]
   },
-
-{
-        "brand": "Xiaomi",
+   {
+       "brand": "Xiaomi",
         "codename": "violet",
         "name": "Redmi Note 7 Pro",
         "supported versions": [
@@ -53,10 +52,10 @@
                "version_code": "ten",
                "version_name": "Ten",
                "xda_thread": "https://forum.xda-developers.com/redmi-note-7-pro/development/rom-rebellion-os-t4079875"
-           }
-      ]
-}
- {
+         }
+     ]
+  },
+   {
       "brand": "Xiaomi",
       "codename": "tulip",
       "name": "Redmi Note 6 Pro",
@@ -68,8 +67,9 @@
             "version_name": "Ten",
             "xda_thread": "https://forum.xda-developers.com/redmi-note-6-pro/development/rom-t4086867"
          }
-}
- {
+     ]
+  },
+   {
        "brand": "Xiaomi",
        "codename": "riva",
        "name": "Redmi 5A",
@@ -80,8 +80,10 @@
              "version_code": "ten",
              "version_name": "Ten",
              "xda_thread": "https://forum.xda-developers.com/xiaomi-redmi-5a/development/rom-rebellion-os-t4088841"
-           }
-    {
+         }
+     ]
+  },
+   {
        "brand": "Xiaomi",
        "codename": "lavender",
        "name": "Redmi Note 7",
@@ -92,5 +94,8 @@
              "version_code": "ten",
              "version_name": "Ten",
              "xda_thread": "https://forum.xda-developers.com/redmi-note-7/development/rebellion-t4108783"
-           }
+         }
+     ]
+  }
 ]
+
