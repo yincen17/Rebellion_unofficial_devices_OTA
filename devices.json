@@ -96,6 +96,20 @@
              "xda_thread": "https://forum.xda-developers.com/redmi-note-7/development/rebellion-t4108783"
          }
      ]
+  },
+   {
+       "brand": "Realme",
+       "codename": "RMX1921",
+       "name": "Realme XT",
+       "supported_versions": [
+          {
+             "maintainer_name": "Advaith Bhat",
+             "maintainer_url": "https://t.me/advaithbhat",
+             "version_code": "ten",
+             "version_name": "Ten",
+             "xda_thread": ""
+         }
+     ]
   }
 ]
 
