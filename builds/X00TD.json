@@ -1,17 +1,17 @@
 {
    "error": "false",
-   "filename": " Rebellion_OS-v1.8-StarWars_Edition-X00T-20200507-1259-Rebelized.zip",
-   "datetime": "1588856354",
-   "size": 699684516,
-   "url": "https://sourceforge.net/projects/rebellion-os/files/X00T/Rebellion_OS-v1.8-StarWars_Edition-X00T-20200507-1259-Rebelized.zip/download",
-   "filehash": "a71823e5e2307c0914b9bfd71d143b1a",
+   "filename": "Rebellion_OS-v1.9-StarWars_Edition-X00TD-20200611-0439-Rebelized.zip",
+   "datetime": "1591863848",
+   "size": 749714175,
+   "url": "https://www.pling.com/p/1381617/startdownload?file_id=1591864596&file_name=download-20200611082233&file_type=application/octet-stream&file_size=243",
+   "filehash": "4428954cdc50eff3ea1fa769330782ce",
    "version": "Ten",
-   "id": "92f2d329a478c0ff601e98ec29a29d949f9d15db481ba7390bcdb1a63f304a1c",
+   "id": "587888f912a06e8cb4a091cb8aa8837f353039c23a87eeef1b4e94d421d9559e",
    "website_url": "https://t.me/Rebellion-Hub",
    "news_url": "https://t.me/rebellionAnnouncements",
    "donate_url": "http://paypal.me/aniruddh9",
    "maintainer": "PKM774",
    "maintainer_url": "https://github.com/mprabhat774",
    "telegram_username": "pkm774",
-   "forum_url": "https://forum.xda-developers.com/asus-zenfone-max-pro-m1/development/x00t-t4027263"
+   "forum_url": "https://forum.xda-developers.com/asus-zenfone-max-pro-m1/development/rom-rebellionos-t4113525"
 }
