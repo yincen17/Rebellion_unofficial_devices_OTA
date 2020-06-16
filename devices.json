@@ -97,6 +97,20 @@
          }
      ]
   },
+     {
+        "brand": "Xiaomi",
+        "codename": "Ginkgo",
+        "name": "Redmi Note 8", 
+        "supported_versions": [ 
+           {
+              "maintainer_name": "Introdructor",
+              "maintainer_url": "https://github.com/Introdructor",
+              "version_code": "ten",
+              "version_name": "Ten",
+              "xda_thread": "https://forum.xda-developers.com/redmi-note-8/development/official-rom-rebellionos-rebelized-t4116241"
+          } 
+      ]
+  } ,
    {
        "brand": "Realme",
        "codename": "RMX1921",
