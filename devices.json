@@ -110,6 +110,20 @@
              "xda_thread": ""
          }
      ]
+  },
+   {
+       "brand": "Xiaomi",
+       "codename": "daisy",
+       "name": "Mi A2 Lite",
+       "supported_versions": [
+          {
+             "maintainer_name": "TogoFire",
+             "maintainer_url": "https://t.me/TogoFire",
+             "version_code": "ten",
+             "version_name": "Ten",
+             "xda_thread": "https://forum.xda-developers.com/mi-a2-lite/development/stable-rebellion-os-1-8-starwars-t4103953"
+           }
+      ]
   }
 ]
 
