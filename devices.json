@@ -138,6 +138,19 @@
              "xda_thread": "https://forum.xda-developers.com/mi-a2-lite/development/stable-rebellion-os-1-8-starwars-t4103953"
            }
       ]
+},
+{
+       "brand": "Realme",
+       "codename": "RMX1901",
+       "name": "Realme X",
+       "supported_versions": [
+          {
+             "maintainer_name": "Satham Hussain",
+             "maintainer_url": "https://t.me/Sathamspot",
+             "version_code": "ten",
+             "version_name": "Ten",
+             "xda_thread": ""
+         }
+     ]
   }
 ]
-
