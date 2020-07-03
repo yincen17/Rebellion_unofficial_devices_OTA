@@ -152,5 +152,16 @@
              "xda_thread": ""
          }
      ]
-  }
+  },
+   {
+       "brand": "Xiaomi",
+       "codename": "tissot",
+       "name": "MI A1",
+       "supported_versions": [
+          {
+             "maintainer_name": "Yincen",
+             "maintainer_url": "https://t.me/yincen",
+             "version_code": "ten",
+             "version_name": "Ten",
+             "xda_thread": ""
 ]
